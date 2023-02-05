@@ -1,0 +1,34 @@
+.login-form {
+    max-width: 512px;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(243, 237, 248);
+    padding: 20px 20px;
+    margin-top: 30vh;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    color: slategray;
+
+
+    .form-control {
+        margin: 16px 0;
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .input {
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            padding: 8px;
+        }
+    }
+
+    .button {
+        background-color: #1e90ff;
+        color: #fff;
+        border-radius: 5px;
+        padding: 8px 16px;
+        margin-top: 16px;
+    }
+}
